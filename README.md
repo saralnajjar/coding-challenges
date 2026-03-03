@@ -21,6 +21,7 @@ coding-challenges/
 ### Kotlin
 | Problem | Description |
 |---------|-------------|
+|[pascals_triangle.kt](kotlin/pascals_triangle.kt) | Generate n rows of Pascal's Triangle |
 
 ---
 
