@@ -1,6 +1,6 @@
 # Coding Challenges
 
-Daily coding challenges solved in Python and Kotlin. Problems sourced from Advent of Code, Exercism, and Project Euler.
+Daily coding challenges solved in Python and Kotlin.
 
 ## Structure
 
