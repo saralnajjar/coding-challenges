@@ -12,4 +12,5 @@ def fizz_buzz(n: int) -> list[str]:
     return result
 
 if __name__ == "__main__":
-    print(fizz_buzz(20))
+    n = int(input("Enter n: "))
+    print(", ".join(fizz_buzz(n)))
