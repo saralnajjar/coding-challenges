@@ -17,11 +17,17 @@ coding-challenges/
 | Problem | Description |
 |---------|-------------|
 | [fibonacci.py](python/fibonacci.py) | Generate the first n Fibonacci numbers |
+| [fizz_buzz.py](python/fizz_buzz.py) | FizzBuzz for numbers 1 through n |
+| [binary_search.py](python/binary_search.py) | Binary search with O(log n) two-pointer approach |
+| [linked_list.py](python/linked_list.py) | Singly linked list with append, delete, search, reverse |
+| [stack_queue.py](python/stack_queue.py) | Stack and queue implementations from scratch |
 
 ### Kotlin
 | Problem | Description |
 |---------|-------------|
 |[pascals_triangle.kt](kotlin/pascals_triangle.kt) | Generate n rows of Pascal's Triangle |
+| [two_sum.kt](kotlin/two_sum.kt) | Two sum using hash map for O(n) solution |
+
 
 ---
 
