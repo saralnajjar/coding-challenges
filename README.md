@@ -27,6 +27,7 @@ coding-challenges/
 |---------|-------------|
 |[pascals_triangle.kt](kotlin/pascals_triangle.kt) | Generate n rows of Pascal's Triangle |
 | [two_sum.kt](kotlin/two_sum.kt) | Two sum using hash map for O(n) solution |
+| [palindrome.kt](kotlin/palindrome.kt) | Palindrome check with two-pointer and one-liner approaches | 
 
 
 ---
