@@ -1,22 +1,34 @@
-/*
-Given a list of numbers and a target, find two numbers that add up to the target and return their indices.
-*/
-
 fun twoSum(nums: List<Int>, target: Int): Pair<Int, Int>? {
-    // Map of value → index for every number we've seen so far
     val seen = mutableMapOf<Int, Int>()
 
     for ((index, num) in nums.withIndex()) {
         val complement = target - num
 
-        // If we've already seen the number that pairs with this one, we're done
         if (complement in seen) {
             return Pair(seen[complement]!!, index)
         }
 
-        // Otherwise record this number and move on
         seen[num] = index
     }
 
-    // No pair found
     return null
+}
+
+fun main() {
+    val tests = listOf(
+        Pair(listOf(2, 7, 11, 15), 9),
+        Pair(listOf(3, 2, 4), 6),
+        Pair(listOf(1, 5, 3, 7), 10),
+        Pair(listOf(1, 2, 3), 100)
+    )
+
+    for ((nums, target) in tests) {
+        val result = twoSum(nums, target)
+        if (result != null) {
+            val (i, j) = result
+            println("$nums, target=$target -> indices ($i, $j): ${nums[i]} + ${nums[j]} = $target")
+        } else {
+            println("$nums, target=$target -> no solution found")
+        }
+    }
+}
