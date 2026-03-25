@@ -58,30 +58,35 @@ fun main() {
     println("Merge Two Sorted Lists")
     println("=".repeat(40))
 
+    // Standard case
     runTest(
         "[1,3,5] + [2,4,6]",
         toList(mergeSortedLists(listOf(1, 3, 5), listOf(2, 4, 6))),
         listOf(1, 2, 3, 4, 5, 6)
     )
 
+    // One empty list
     runTest(
         "[] + [1,2,3]",
         toList(mergeSortedLists(null, listOf(1, 2, 3))),
         listOf(1, 2, 3)
     )
 
+    // Both empty
     runTest(
         "[] + []",
         toList(mergeSortedLists(null, null)),
         emptyList()
     )
 
+    // Duplicates
     runTest(
         "[1,2,2] + [2,3]",
         toList(mergeSortedLists(listOf(1, 2, 2), listOf(2, 3))),
         listOf(1, 2, 2, 2, 3)
     )
 
+    // Different lengths
     runTest(
         "[1] + [2,3,4,5]",
         toList(mergeSortedLists(listOf(1), listOf(2, 3, 4, 5))),
