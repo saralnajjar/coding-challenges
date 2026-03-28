@@ -23,6 +23,7 @@ coding-challenges/
 | [stack_queue.py](python/stack_queue.py) | Stack and queue implementations from scratch |
 | [binary_tree_bfs.py](python/binary_tree_bfs.py) | Binary tree level-order traversal using BFS |
 | [valid_parentheses.py](python/valid_parentheses.py) | Valid parentheses check using a stack |
+| [lru_cache.py] (python/lru_cache.py) | Least recently used cache |
 
 
 ### Kotlin
