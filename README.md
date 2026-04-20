@@ -6,9 +6,9 @@ Daily coding challenges solved in Python and Kotlin.
 
 ```
 coding-challenges/
-├── python/        # Python solutions
-├── kotlin/        # Kotlin solutions
-└── README.md
+    python/
+    kotlin/
+    README.md
 ```
 
 ## Solutions
@@ -23,7 +23,7 @@ coding-challenges/
 | [stack_queue.py](python/stack_queue.py) | Stack and queue implementations from scratch |
 | [binary_tree_bfs.py](python/binary_tree_bfs.py) | Binary tree level-order traversal using BFS |
 | [valid_parentheses.py](python/valid_parentheses.py) | Valid parentheses check using a stack |
-| [lru_cache.py] (python/lru_cache.py) | Least recently used cache |
+| [lru_cache.py](python/lru_cache.py) | Least recently used cache |
 
 
 ### Kotlin
@@ -33,6 +33,7 @@ coding-challenges/
 | [two_sum.kt](kotlin/two_sum.kt) | Two sum using hash map for O(n) solution |
 | [palindrome.kt](kotlin/palindrome.kt) | Palindrome check with two-pointer and one-liner approaches | 
 | [reverse_linked_list.kt](kotlin/reverse_linked_list.kt) | Singly linked list with in-place reversal |
+| [fizz_buzz.kt](kotlin/fizz_buzz.kt) | FizzBuzz for numbers 1 through n |
 
 
 ---
